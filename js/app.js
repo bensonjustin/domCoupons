@@ -60,35 +60,93 @@ document.getElementsByClassName('block1')[1].appendChild(tShirtButton);
 
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
 
-
+document.getElementsByClassName('brand')[1].innerHTML = 'Uniqlo';
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
+document.getElementsByClassName('price')[1].innerHTML = "10,000";
+
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
+
+let headphonesBox = document.createElement('div');
+headphonesBox.className = 'brand';
+headphonesBox.innerHTML = 'Hifiman Shangri-La';
+document.getElementsByClassName('block3')[1].appendChild(headphonesBox);
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
+let headphonesElec = document.createElement('div');
+headphonesElec.className = 'item';
+headphonesElec.innerHTML = 'Electronstatic Headphones';
+document.getElementsByClassName('block3')[1].appendChild(headphonesElec);
+
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
+
+let headphonesPrice = document.createElement('div');
+headphonesPrice.className = 'price';
+headphonesPrice.innerHTML = '$18,000';
+document.getElementsByClassName('block3')[1].appendChild(headphonesPrice);
 
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
+let headphonesBut = document.createElement('button');
+headphonesBut.className = 'discount';
+headphonesBut.innerHTML = 'Free Barry Manilow CD with purchase!';
+document.getElementsByClassName('block3')[1].appendChild(headphonesBut);
+
 //17. For the Unicorn Slippers, change the contents for each element to the following: 
 //div.brand = H&M
+
+document.getElementsByClassName('brand')[3].innerHTML = 'H&M';
+
 //div.item =  Unicorn-Head Slippers
+
+document.getElementsByClassName('item')[3].innerHTML = 'Unicorn-Head Slippers'
+
 //div.price = $21.99
+
+document.getElementsByClassName('price')[3].innerHTML = '$21.99';
+
 // button.discount = Free knee-high tube socks with purchase!
+
+document.getElementsByClassName('discount')[3].innerHTML = 'Free knee-high tube socks with purchase!';
 
 //18. For the Doritos, change the contents for each element to the following:
 //div.brand = Frito Lay
+
+document.getElementsByClassName('brand')[4].innerHTML = 'Frito Lay';
+
 //div.item =  Poppin' Jalapeno Doritos
+
+document.getElementsByClassName('item')[4].innerHTML = "Poppin' Jalapeno Doritos";
+
 //div.price = $7.77
+
+document.getElementsByClassName('price')[4].innerHTML = '$7.77';
+
 // button.discount = 33% OFF any 6 pack Budweiser or Bud Light.
+
+document.getElementsByClassName('discount')[4].innerHTML = '33% OFF any 6 pack Budweiser or Bud Light'
 
 //19. For the Pug, change the contents for each element to the following:
 //div.brand = Any Dog Breeder
+
+document.getElementsByClassName('brand')[5].innerHTML = 'Any Dog Breeder';
+
 //div.item =  Baby Puggy
+
+document.getElementsByClassName('item')[5].innerHTML = 'Baby Puggy';
+
 //div.price = Priceless
+
+document.getElementsByClassName('price')[5].innerHTML = 'Priceless';
+
 // button.discount = No Discounts. This cutie is worth every penny!
+
+document.getElementsByClassName('discount')[5].innerHTML = 'No Discounts. This cutie is worth every penny!';
 
 //Final Boss 
 //Create your own product for the last three sections.
+
+document.getElementsByClassName('block1')[3].childNodes[0].src = 'https://cdn.shopify.com/s/files/1/2062/5873/products/1_697cb249-294f-4315-bb9c-982cdf81ebf8_x700.jpg?v=1530638998';
+document.getElementsByClassName('brand')[6].innerHTML = 'Dwarfcraft';
